@@ -7,6 +7,7 @@
 	<link rel="shortcut icon" href="../assets/img/logo2.png">
 	<title>El mundo de las croquetas</title>
 	<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../css/animate.css">
 	<link rel="stylesheet" href="../css/estilo.css">
 </head>
 <body>
@@ -23,7 +24,7 @@
 					<ul>
 						<li class="li"><a href="../index.html">Inicio</a></li>
 						<li class="li"><a href="nosotros.html">Nosotros</a></li>
-						<li class="li"><a href="#">Tienda</a></li>
+						<li class="li"><a href="#" class="navegacion__menu--activo">Tienda</a></li>
 						<li class="li"><a href="faq.html">Faq</a></li>
 						<li class="li"><a href="contacto.html">Contacto</a></li>
 					</ul>
@@ -45,7 +46,7 @@
 						<div class="caja__tradicional">
 							<!-- informacion -->
 							<!-- titulo -->
-							<div class="paddingTop">
+							<div class="paddingTop wow fadeInLeft">
 								<h2 class="tienda__titulo">Línea tradicional: $650/docena</h2>
 								<!-- lista -->
 								<ul class="tienda__lista">
@@ -70,7 +71,7 @@
 							<img src="../assets/img/gourmet.png" alt="imagen2" class="margin">
 							<!-- informacion -->
 							<!-- titulo -->
-							<div class="paddingTop">
+							<div class="paddingTop wow fadeInRight">
 								<h2 class="tienda__titulo2">Línea gourmet: $800/docena</h2>
 								<!-- lista -->
 								<ul class="tienda__lista2">
@@ -90,7 +91,7 @@
 					<article>
 						<!--informacion -->
 						<div class="caja__vegetariana">
-							<div class="paddingTop">
+							<div class="paddingTop wow fadeInLeft">
 								<!-- titulo -->
 								<h2 class="tienda__titulo">Línea vegetariana: $650/docena</h2>
 								<!-- lista -->
@@ -159,5 +160,11 @@
 		</footer>
 		<!-- cierre footer -->
 	</div>
+
+
+	<script src="../js/wow.min.js"></script>
+	<script>
+	   new WOW().init();
+	</script>
 </body>
 </html>

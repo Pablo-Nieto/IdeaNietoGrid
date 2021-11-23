@@ -7,6 +7,7 @@
 	<link rel="shortcut icon" href="assets/img/logo2.png">
 	<title>El mundo de las croquetas</title>
 	<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
@@ -21,7 +22,7 @@
 			<div>
 				<nav class="barraNavIndex">
 					<ul>
-						<li class="li"><a href="#">Inicio</a></li>
+						<li class="li"><a href="#" class="navegacion__menu--activo">Inicio</a></li>
 						<li class="li"><a href="pages/nosotros.html">Nosotros</a></li>
 						<li class="li"><a href="pages/tienda.html">Tienda</a></li>
 						<li class="li"><a href="pages/faq.html">Faq</a></li>
@@ -45,10 +46,10 @@
 					</div>
 				</article>
 			</section>				
-			<section class="segundaSeccion">
+			<section>
 				<article>
 					<!-- img -->
-					<div class="segundaCaja">
+					<div class="segundaCaja wow fadeInUp">
 						<img src="assets/img/segundafoto.png" alt="segunda foto" class="informacion__img2">
 					<!-- texto -->
 						<p class="informacion__texto2">
@@ -95,5 +96,11 @@
 		</footer>
 		<!-- cierre footer -->
 	</div>
+
+
+	<script src="js/wow.min.js"></script>
+	<script>
+	   new WOW().init();
+	</script>
 </body>
 </html>

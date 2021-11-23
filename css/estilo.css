@@ -50,6 +50,18 @@ header {
 	padding: 20px;
 }
 
+.li a {
+	color: #000000;
+} 
+
+.li a:hover {
+	color: #C70039;
+}
+
+header .navegacion__menu--activo {
+	color: #C70039;
+}
+
 .contenido {
 	background-color: #ffeeca;
 	margin-bottom: 0px; 
@@ -835,3 +847,6 @@ footer {
 		padding-left: 55px;
 	}
 }
+
+
+
